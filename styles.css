@@ -1215,3 +1215,102 @@ body {
   margin-left: 5px; /* Space between toggle and moon icon */
   font-size: 1.2rem;
 }
+
+/* new again */
+
+/* General Styling */
+.project-item {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Project Thumbnail */
+.project-thumbnail {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+/* Hover Effect */
+.project-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #343d68 
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding: 20px;
+  text-align: center;
+}
+
+.project-item:hover .project-hover {
+  opacity: 1;
+}
+
+/* Project Title */
+.project-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+/* Project Description */
+.project-description {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  gap: 15px;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.icon-link:hover {
+  color: #1e90ff; /* Change to your desired hover color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .project-hover {
+    padding: 10px;
+  }
+
+  .project-title {
+    font-size: 1.2rem;
+  }
+
+  .project-description {
+    font-size: 0.9rem;
+  }
+
+  .icon-link {
+    font-size: 1.2rem;
+  }
+}
