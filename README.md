@@ -20,8 +20,10 @@
         <li><strong>Fully Responsive:</strong> Optimized for all devices.</li>
         <li><strong>Animations:</strong> Profile section and project cards include smooth animations.</li>
     </ul>
+    <hr>
     <h2>Live Demo</h2>
     <p><a href="https://madhavc9.github.io/portfolio_madhavc9/" target="_blank">Click here to view the live website</a></p>
+    <hr>
     <h2>Connect with me:</h2>
     <p>
         <strong>Email:</strong> <a href="mailto:madhav.c9@hotmail.com">madhav.c9@hotmail.com</a><br>
