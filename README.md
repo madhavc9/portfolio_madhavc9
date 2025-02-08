@@ -21,12 +21,14 @@
     </ul>
     <h2>Live Demo</h2>
     <p><a href="https://yourwebsite.com" target="_blank">Click here to view the live website</a></p>
-    <h2>🤝 Connect with Me</h2>
-    <ul>
-        <li><a href="https://linkedin.com/in/madhavc9" target="_blank">LinkedIn</a></li>
-        <li><a href="https://github.com/madhavc9" target="_blank">GitHub</a></li>
-        <li><a href="mailto:madhav@example.com">Email</a></li>
-        <li><a href="https://instagram.com/madhavc9">Instagram</a></li>
-    </ul>
+    <details>
+  <h2>Contact</strong></h2>h2>
+  <p>
+    <strong>🤝 Connect with me</strong>: Madhav<br>
+    📧 <strong>Email</strong>: <a href="mailto:madhav.c9@hotmail.com">madhav.c9@hotmail.com</a><br>
+    🔗 <strong>GitHub</strong>: <a href="https://github.com/madhavc9">https://github.com/madhavc9</a><br>
+    🔗 <strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/madhav-choudhary-015124216/">https://linkedin.com/in/madhav-choudhary</a><br>
+  </p>
+</details>
 </body>
 </html>
