@@ -19,13 +19,6 @@
         <li>📱 <strong>Fully Responsive:</strong> Optimized for all devices.</li>
         <li>🎭 <strong>Animations:</strong> Profile section and project cards include smooth animations.</li>
     </ul>
-    <h2>🚀 How to Use</h2>
-    <ol>
-        <li>Clone this repository:</li>
-        <pre><code>git clone https://github.com/madhavc9/portfolio-website.git</code></pre>
-        <li>Open <code>index.html</code> in a browser.</li>
-        <li>Explore the sections and use the contact form.</li>
-    </ol>
     <h2>Live Demo</h2>
     <p><a href="https://yourwebsite.com" target="_blank">Click here to view the live website</a></p>
     <h2>🤝 Connect with Me</h2>
