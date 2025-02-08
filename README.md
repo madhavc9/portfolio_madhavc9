@@ -2,7 +2,7 @@
 <html>
 <body>
     <h1 align='center'>🚀 Portfolio Website</h1>
-    Welcome to my portfolio website repository. This project showcases my work, skills, and contact information, built entirely using <strong>HTML and CSS</strong>.
+    <p aligh='center'>Welcome to my portfolio website repository. This project showcases my work, skills, and contact information, built entirely using <strong>HTML and CSS</strong>. </p>
     <hr>
     <h2>Features</h2>
     <ul>
