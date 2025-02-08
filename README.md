@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-    ## 🚀 Portfolio Website 
+    <h1 style="border-bottom: none;">🚀 Portfolio Website</h1>
     <p>Welcome to my portfolio website repository. This project showcases my work, skills, and contact information, built entirely using <strong>HTML and CSS</strong>.</p>
     <hr>
     <h2>Features</h2>
