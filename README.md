@@ -1,15 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Portfolio Website - README</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
-        h1, h2 { color: #d35400; }
-        pre { background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto; }
-        code { font-family: monospace; color: #c0392b; }
-    </style>
-</head>
 <body>
     <h1>🚀 Portfolio Website</h1>
     <p>Welcome to my portfolio website repository. This project showcases my work, skills, and contact information, built entirely using <strong>HTML and CSS</strong>.</p>
