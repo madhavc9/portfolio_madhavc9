@@ -19,10 +19,6 @@
         <li>📱 <strong>Fully Responsive:</strong> Optimized for all devices.</li>
         <li>🎭 <strong>Animations:</strong> Profile section and project cards include smooth animations.</li>
     </ul>
-    <h2>📸 Screenshots</h2>
-    <p>Here are some previews of the website:</p>
-    <img src="./assets/preview1.png" width="600px" alt="Portfolio Homepage">
-    <img src="./assets/preview2.png" width="600px" alt="Projects Section">
     <h2>🚀 How to Use</h2>
     <ol>
         <li>Clone this repository:</li>
@@ -30,7 +26,7 @@
         <li>Open <code>index.html</code> in a browser.</li>
         <li>Explore the sections and use the contact form.</li>
     </ol>
-    <h2>🔗 Live Demo</h2>
+    <h2>Live Demo</h2>
     <p><a href="https://yourwebsite.com" target="_blank">Click here to view the live website</a></p>
     <h2>🤝 Connect with Me</h2>
     <ul>
@@ -39,7 +35,5 @@
         <li><a href="mailto:madhav@example.com">Email</a></li>
         <li><a href="https://instagram.com/madhavc9">Instagram</a></li>
     </ul>
-    <h2>📜 License</h2>
-    <p>This project is licensed under the MIT License.</p>
 </body>
 </html>
