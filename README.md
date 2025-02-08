@@ -19,15 +19,6 @@
         <li>📱 <strong>Fully Responsive:</strong> Optimized for all devices.</li>
         <li>🎭 <strong>Animations:</strong> Profile section and project cards include smooth animations.</li>
     </ul>
-    <h2>📂 File Structure</h2>
-    <pre>
-    /portfolio-website
-    ├── index.html        # Main HTML file
-    ├── style.css         # Styling file
-    ├── script.js         # JavaScript for theme toggling & animations
-    ├── assets/           # Images and icons
-    ├── README.html       # This file
-    </pre>
     <h2>📸 Screenshots</h2>
     <p>Here are some previews of the website:</p>
     <img src="./assets/preview1.png" width="600px" alt="Portfolio Homepage">
