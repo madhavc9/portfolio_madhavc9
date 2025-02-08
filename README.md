@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-    <p><strong><span style="font-size: 32px;">🚀 Portfolio Website</span></strong></p>
+    <p><strong><span style="font-size: 128px;">🚀 Portfolio Website</span></strong></p>
     <p>Welcome to my portfolio website repository. This project showcases my work, skills, and contact information, built entirely using <strong>HTML and CSS</strong>.</p>
     <hr>
     <h2>Features</h2>
