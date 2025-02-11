@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html>
 <body>
-    <h1 align='center'>🚀 Portfolio Website</h1>
-    <p aligh='center'>Welcome to my portfolio website repository. This project showcases my work, skills, and contact information, built entirely using <strong>HTML and CSS</strong>. </p>
+<div align="center">
+  <img src="/portfolio_logo.png" alt="c4c_Logo" width="600">
+  <h3 align="center">🚀 Portfolio Website</h3>
+  <p align="center">
+   Welcome to my portfolio website repository. This project showcases my work, skills, and contact information, built entirely using <strong>HTML and CSS</strong>.
+    <br />
+    <a href="https://madhavc9.github.io/portfolio_madhavc9/" target="_blank"><strong>Live Website »</strong></a>
+  </p>
+</div>
     <hr>
     <h2>Features</h2>
     <ul>
