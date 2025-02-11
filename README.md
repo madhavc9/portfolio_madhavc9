@@ -2,7 +2,7 @@
 <html>
 <body>
 <div align="center">
-  <img src="/portfolio_logo.png" alt="c4c_Logo" width="600">
+  <img src="/portfolio_bg.png" alt="c4c_Logo" width="600">
   <h3 align="center">🚀 Portfolio Website</h3>
   <p align="center">
    Welcome to my portfolio website repository. This project showcases my work, skills, and contact information, built entirely using <strong>HTML and CSS</strong>.
