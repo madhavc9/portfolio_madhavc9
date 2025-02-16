@@ -11,11 +11,9 @@
   <link rel="stylesheet" href="styles.css" />
   <!-- Add Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-
 </head>
 
 <body>
-
 <!-- Navbar -->
 <nav id="navbar" class="navbar container">
   <!-- Logo -->
@@ -40,35 +38,6 @@
     <div><a href="#contactme" class="nav-link">Contact Me</a></div>
   </div>
 </nav>
-
-
-<!-- JavaScript -->
-<script>
-const toggle = document.getElementById('theme-toggle');
-const body = document.body;
-
-// Set initial theme based on localStorage
-const currentTheme = localStorage.getItem('theme') || 'light';
-if (currentTheme === 'dark') {
-  body.classList.add('dark-mode');
-  toggle.checked = true;
-} else {
-  body.classList.add('light-mode');
-}
-
-// Toggle theme on click
-toggle.addEventListener('change', () => {
-  if (toggle.checked) {
-    body.classList.add('dark-mode');
-    body.classList.remove('light-mode');
-    localStorage.setItem('theme', 'dark');
-  } else {
-    body.classList.add('light-mode');
-    body.classList.remove('dark-mode');
-    localStorage.setItem('theme', 'light');
-  }
-});
-</script>
 
 <!-- Hero Section -->
 <div class="hero-section container" id="herosection">
@@ -115,123 +84,6 @@ toggle.addEventListener('change', () => {
     <a href="https://drive.google.com/your-link-here" target="_blank" class="btn-link">View CV</a>
   </div>
 </div>
-
-<!-- CSS -->
-<style>
-  /* General Styles */
-  body {
-    transition: background-color 0.3s, color 0.3s;
-    background-color: white;
-    color: black;
-  }
-
-  .dark-mode {
-    background-color: black;
-    color: white;
-  }
-
-  /* Navbar Styles */
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: transparent;
-  }
-
-  .logo-group {
-    display: flex;
-    align-items: center;
-  }
-
-  .nav-logo-text {
-    font-size: 1.5rem;
-    margin-left: 10px;
-    color: white;
-  }
-
-  /* Change Mode Group Styles */
-  .change-mode-group {
-    display: flex;
-    align-items: center;
-    margin-right: auto; /* Align to the left */
-  }
-
-  .change-mode-text {
-    color: white; /* White font for light mode */
-    font-size: 1rem;
-    margin-right: 10px; /* Space between text and toggle */
-  }
-
-  /* Nav Links */
-  .nav-link {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-
-  /* Theme-specific Nav Links */
-  body.dark-mode .nav-link {
-    color: white;
-  }
-
-  body.light-mode .nav-link {
-    color: white;
-  }
-
-  /* Theme Toggle Styles */
-  .theme-toggle {
-    display: flex;
-    align-items: center;
-  }
-
-  body {
-    transition: background-color 0.3s, color 0.3s;
-    background-color: white;
-    color: black;
-  }
-
-  .dark-mode {
-    background-color: black;
-    color: white;
-  }
-
-  /* Styling for hero section heading and sub-heading */
-  #greeting, #introduction {
-    transition: color 0.3s;
-    color: black; /* Default color */
-  }
-
-  body.dark-mode #greeting,
-  body.dark-mode #introduction {
-    color: #e84949; /* Change to orange in dark mode */
-  }
-</style>
-
-<!-- JavaScript -->
-<script>
-const toggle = document.getElementById('theme-toggle');
-const body = document.body;
-
-// Set initial theme based on localStorage
-const currentTheme = localStorage.getItem('theme') || 'light';
-if (currentTheme === 'dark') {
-  body.classList.add('dark-mode');
-  toggle.checked = true;
-}
-
-// Toggle theme on click
-toggle.addEventListener('change', () => {
-  if (toggle.checked) {
-    body.classList.add('dark-mode');
-    localStorage.setItem('theme', 'dark');
-  } else {
-    body.classList.remove('dark-mode');
-    localStorage.setItem('theme', 'light');
-  }
-});
-</script>
 
  <!-- Projects -->
 
@@ -283,6 +135,53 @@ toggle.addEventListener('change', () => {
           </figcaption>
         </div>
       </div>
+
+              <!--Project Card 7-->
+    <div class="project-item">
+      <img src="./images/projects/Project17.jpg" alt="SkInsight" class="project-thumbnail" />
+      <div class="project-hover">
+        <figcaption>
+          <h2 class="project-title"># &nbsp;SkInsight</h2>
+          <p class="project-description">
+          An AI-driven tool that detects acne, analyzes skin conditions, and provides personalized skincare recommendations using deep learning and real-time facial analysis.
+
+            <br><br>
+          </p> 
+          <p class="project-description">Tech Stack Used :&nbsp; HTML, CSS, JS
+          </p> 
+          <div class="button-group">
+            <a href="https://github.com/madhavc9/Project-SkInsight" target="_blank" title="GitHub Link" class="icon-link">
+              <i class="fa-brands fa-github project-icon"></i>
+            </a>
+            <a href="https://ranmadhav-project-skinsight.onrender.com/" target="_blank" title="Live Project" class="icon-link">
+              <i class="fa-solid fa-link project-icon"></i>
+            </a>
+          </div>
+        </figcaption>
+      </div>
+    </div>
+     <!--Project Card 5-->
+<div class="project-item">
+  <img src="./images/projects/Project15.jpg" alt="Airline Management System" class="project-thumbnail" />
+  <div class="project-hover">
+    <figcaption>
+      <h2 class="project-title"># &nbsp;Airline Management System</h2>
+      <p class="project-description">
+        Developed a system to streamline airline operations with enhanced data accuracy and user experience.
+      </p> 
+      <p class="project-description">Tech Stack Used :&nbsp;Java, My Sql, Swing, JDBC
+      </p> 
+      <div class="button-group">
+        <a href="https://github.com/madhavc9/airline_management_system" target="_blank" title="GitHub Link" class="icon-link">
+          <i class="fa-brands fa-github project-icon"></i>
+        </a>
+        <a href="https://drive.google.com/file/d/1tP3LpOuq9oVjJ5IHTt3EekR550bA1q01/view" target="_blank" title="Live Project" class="icon-link">
+          <i class="fa-solid fa-link project-icon"></i>
+        </a>
+      </div>
+    </figcaption>
+  </div>
+</div>
       <!--Project Card 3-->
       <div class="project-item">
         <img src="./images/projects/Project13.jpg" alt="Online Movie Recommendation" class="project-thumbnail" />
@@ -325,28 +224,6 @@ toggle.addEventListener('change', () => {
             </figcaption>
           </div>
         </div>
-         <!--Project Card 5-->
-<div class="project-item">
-  <img src="./images/projects/Project15.jpg" alt="Airline Management System" class="project-thumbnail" />
-  <div class="project-hover">
-    <figcaption>
-      <h2 class="project-title"># &nbsp;Airline Management System</h2>
-      <p class="project-description">
-        Developed a system to streamline airline operations with enhanced data accuracy and user experience.
-      </p> 
-      <p class="project-description">Tech Stack Used :&nbsp;Java, My Sql, Swing, JDBC
-      </p> 
-      <div class="button-group">
-        <a href="https://github.com/madhavc9/airline_management_system" target="_blank" title="GitHub Link" class="icon-link">
-          <i class="fa-brands fa-github project-icon"></i>
-        </a>
-        <a href="https://drive.google.com/file/d/1tP3LpOuq9oVjJ5IHTt3EekR550bA1q01/view" target="_blank" title="Live Project" class="icon-link">
-          <i class="fa-solid fa-link project-icon"></i>
-        </a>
-      </div>
-    </figcaption>
-  </div>
-</div>
     <!--Project Card 6-->
     <div class="project-item">
       <img src="./images/projects/Project16.jpg" alt="ACO Simulator" class="project-thumbnail" />
@@ -364,30 +241,6 @@ toggle.addEventListener('change', () => {
               <i class="fa-brands fa-github project-icon"></i>
             </a>
             <a href="https://madhavc9.github.io/Ant-Colony-Optimization-Simulator/" target="_blank" title="Live Project" class="icon-link">
-              <i class="fa-solid fa-link project-icon"></i>
-            </a>
-          </div>
-        </figcaption>
-      </div>
-    </div>
-        <!--Project Card 7-->
-    <div class="project-item">
-      <img src="./images/projects/Project17.jpg" alt="SkInsight" class="project-thumbnail" />
-      <div class="project-hover">
-        <figcaption>
-          <h2 class="project-title"># &nbsp;SkInsight</h2>
-          <p class="project-description">
-          An AI-driven tool that detects acne, analyzes skin conditions, and provides personalized skincare recommendations using deep learning and real-time facial analysis.
-
-            <br><br>
-          </p> 
-          <p class="project-description">Tech Stack Used :&nbsp; HTML, CSS, JS
-          </p> 
-          <div class="button-group">
-            <a href="https://github.com/madhavc9/Project-SkInsight" target="_blank" title="GitHub Link" class="icon-link">
-              <i class="fa-brands fa-github project-icon"></i>
-            </a>
-            <a href="https://ranmadhav-project-skinsight.onrender.com/" target="_blank" title="Live Project" class="icon-link">
               <i class="fa-solid fa-link project-icon"></i>
             </a>
           </div>
@@ -581,6 +434,152 @@ toggle.addEventListener('change', () => {
       backDelay: 1000,
     });
   </script>
+
+  <!-- JavaScript -->
+<script>
+  const toggle = document.getElementById('theme-toggle');
+  const body = document.body;
+  
+  // Set initial theme based on localStorage
+  const currentTheme = localStorage.getItem('theme') || 'light';
+  if (currentTheme === 'dark') {
+    body.classList.add('dark-mode');
+    toggle.checked = true;
+  } else {
+    body.classList.add('light-mode');
+  }
+  
+  // Toggle theme on click
+  toggle.addEventListener('change', () => {
+    if (toggle.checked) {
+      body.classList.add('dark-mode');
+      body.classList.remove('light-mode');
+      localStorage.setItem('theme', 'dark');
+    } else {
+      body.classList.add('light-mode');
+      body.classList.remove('dark-mode');
+      localStorage.setItem('theme', 'light');
+    }
+  });
+  </script>
+
+<!-- JavaScript -->
+<script>
+const toggle = document.getElementById('theme-toggle');
+const body = document.body;
+
+// Set initial theme based on localStorage
+const currentTheme = localStorage.getItem('theme') || 'light';
+if (currentTheme === 'dark') {
+  body.classList.add('dark-mode');
+  toggle.checked = true;
+}
+
+// Toggle theme on click
+toggle.addEventListener('change', () => {
+  if (toggle.checked) {
+    body.classList.add('dark-mode');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    body.classList.remove('dark-mode');
+    localStorage.setItem('theme', 'light');
+  }
+});
+</script>
+
+<!-- CSS -->
+<style>
+  /* General Styles */
+  body {
+    transition: background-color 0.3s, color 0.3s;
+    background-color: white;
+    color: black;
+  }
+
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent;
+  }
+
+  .logo-group {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-logo-text {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    color: white;
+  }
+
+  /* Change Mode Group Styles */
+  .change-mode-group {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Align to the left */
+  }
+
+  .change-mode-text {
+    color: white; /* White font for light mode */
+    font-size: 1rem;
+    margin-right: 10px; /* Space between text and toggle */
+  }
+
+  /* Nav Links */
+  .nav-link {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  /* Theme-specific Nav Links */
+  body.dark-mode .nav-link {
+    color: white;
+  }
+
+  body.light-mode .nav-link {
+    color: white;
+  }
+
+  /* Theme Toggle Styles */
+  .theme-toggle {
+    display: flex;
+    align-items: center;
+  }
+
+  body {
+    transition: background-color 0.3s, color 0.3s;
+    background-color: white;
+    color: black;
+  }
+
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+  /* Styling for hero section heading and sub-heading */
+  #greeting, #introduction {
+    transition: color 0.3s;
+    color: black; /* Default color */
+  }
+
+  body.dark-mode #greeting,
+  body.dark-mode #introduction {
+    color: #e84949; /* Change to orange in dark mode */
+  }
+</style>
+
 </body>
 
 </html>
