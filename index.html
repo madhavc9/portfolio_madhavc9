@@ -41,90 +41,6 @@
   </div>
 </nav>
 
-<!-- CSS -->
-<style>
-  /* General Styles */
-  body {
-    transition: background-color 0.3s, color 0.3s;
-    background-color: white;
-    color: black;
-  }
-
-  .dark-mode {
-    background-color: black;
-    color: white;
-  }
-
-  /* Navbar Styles */
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: transparent;
-  }
-
-  .logo-group {
-    display: flex;
-    align-items: center;
-  }
-
-  .nav-logo-text {
-    font-size: 1.5rem;
-    margin-left: 10px;
-    color: white;
-  }
-
-  /* Change Mode Group Styles */
-  .change-mode-group {
-    display: flex;
-    align-items: center;
-    margin-right: auto; /* Align to the left */
-  }
-
-  .change-mode-text {
-    color: white; /* White font for light mode */
-    font-size: 1rem;
-    margin-right: 10px; /* Space between text and toggle */
-  }
-
-  /* Nav Links */
-  .nav-link {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-
-  /* Theme-specific Nav Links */
-  body.dark-mode .nav-link {
-    color: white;
-  }
-
-  body.light-mode .nav-link {
-    color: white;
-  }
-
-  /* Theme Toggle Styles */
-  .theme-toggle {
-    display: flex;
-    align-items: center;
-  }
-  /* hii */
-  .projects-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-.project-item:nth-child(7) {
-  order: -1; /* Moves the last project to the middle */
-}
-
-  
-</style>
 
 <!-- JavaScript -->
 <script>
@@ -202,6 +118,74 @@ toggle.addEventListener('change', () => {
 
 <!-- CSS -->
 <style>
+  /* General Styles */
+  body {
+    transition: background-color 0.3s, color 0.3s;
+    background-color: white;
+    color: black;
+  }
+
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent;
+  }
+
+  .logo-group {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-logo-text {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    color: white;
+  }
+
+  /* Change Mode Group Styles */
+  .change-mode-group {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Align to the left */
+  }
+
+  .change-mode-text {
+    color: white; /* White font for light mode */
+    font-size: 1rem;
+    margin-right: 10px; /* Space between text and toggle */
+  }
+
+  /* Nav Links */
+  .nav-link {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  /* Theme-specific Nav Links */
+  body.dark-mode .nav-link {
+    color: white;
+  }
+
+  body.light-mode .nav-link {
+    color: white;
+  }
+
+  /* Theme Toggle Styles */
+  .theme-toggle {
+    display: flex;
+    align-items: center;
+  }
+
   body {
     transition: background-color 0.3s, color 0.3s;
     background-color: white;
@@ -393,7 +377,9 @@ toggle.addEventListener('change', () => {
         <figcaption>
           <h2 class="project-title"># &nbsp;SkInsight</h2>
           <p class="project-description">
-          An advanced AI-driven platform for skin analysis and personalized skincare recommendations.         <br><br>
+          An AI-driven tool that detects acne, analyzes skin conditions, and provides personalized skincare recommendations using deep learning and real-time facial analysis.
+
+            <br><br>
           </p> 
           <p class="project-description">Tech Stack Used :&nbsp; HTML, CSS, JS
           </p> 
@@ -401,7 +387,51 @@ toggle.addEventListener('change', () => {
             <a href="https://github.com/madhavc9/Project-SkInsight" target="_blank" title="GitHub Link" class="icon-link">
               <i class="fa-brands fa-github project-icon"></i>
             </a>
-            <a href="https://github.com/madhavc9/Project-SkInsight" target="_blank" title="Live Project" class="icon-link">
+            <a href="https://ranmadhav-project-skinsight.onrender.com/" target="_blank" title="Live Project" class="icon-link">
+              <i class="fa-solid fa-link project-icon"></i>
+            </a>
+          </div>
+        </figcaption>
+      </div>
+    </div>
+            <!--Project Card 8-->
+            <div class="project-item">
+              <img src="./images/projects/Project18.jpg" alt="Lip Reading" class="project-thumbnail" />
+              <div class="project-hover">
+                <figcaption>
+                  <h2 class="project-title"># &nbsp;Lip Reading</h2>
+                  <p class="project-description">
+                  An innovative solution that extracts spoken words from video footage by analyzing lip movements         <br><br>
+                  </p> 
+                  <p class="project-description">Tech Stack Used :&nbsp; Python, Conv3D, LSTM
+                  </p> 
+                  <div class="button-group">
+                    <a href="https://github.com/madhavc9/LIP-READING-PROJECT-" target="_blank" title="GitHub Link" class="icon-link">
+                      <i class="fa-brands fa-github project-icon"></i>
+                    </a>
+                    <a href="https://colab.research.google.com/drive/1X5Cg0VGl3cQ3TpIFZ8O5ccoEEPTMuCmq?usp=sharing" target="_blank" title="Live Project" class="icon-link">
+                      <i class="fa-solid fa-link project-icon"></i>
+                    </a>
+                  </div>
+                </figcaption>
+              </div>
+            </div>
+    <!--Project Card 9-->
+    <div class="project-item">
+      <img src="./images/projects/Project19.jpg" alt="Online Bike Showroom" class="project-thumbnail" />
+      <div class="project-hover">
+        <figcaption>
+          <h2 class="project-title"># &nbsp;Online Bike Showroom</h2>
+          <p class="project-description">
+          A dynamic web platform that transforms the motorbike shopping experience with a sleek, interactive interface and seamless order tracking.        <br><br>
+          </p> 
+          <p class="project-description">Tech Stack Used :&nbsp; ReactJS, Tailwind CSS, MongoDB
+          </p> 
+          <div class="button-group">
+            <a href="https://github.com/madhavc9/motorbike_project" target="_blank" title="GitHub Link" class="icon-link">
+              <i class="fa-brands fa-github project-icon"></i>
+            </a>
+            <a href="https://65539b710ca812063cb01325--dazzling-bienenstitch-6d5911.netlify.app/login" target="_blank" title="Live Project" class="icon-link">
               <i class="fa-solid fa-link project-icon"></i>
             </a>
           </div>
@@ -554,3 +584,4 @@ toggle.addEventListener('change', () => {
 </body>
 
 </html>
+
